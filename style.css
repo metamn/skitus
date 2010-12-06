@@ -1,0 +1,268 @@
+/*
+Theme Name: Ski
+Theme URI: http://clair.ro
+Description: Grid based ski theme
+Author: cs
+Author URI: http://clair.ro
+Template: default
+Version: 0.1
+.
+General comments/License Statement if any.
+
+MIT licence
+.
+*/
+
+
+/* colors */
+
+a, a:visited {
+  color: #313640;
+}
+
+.brown {
+  background: #4d3b23;
+}
+.bordo {
+  background: #652c0a;
+}
+.blue {
+  background: #3a3e4d;
+}
+
+
+/* layout */
+
+.container {
+  margin: 0 auto;
+  width: 950px;
+  overflow: hidden;  
+}
+
+#header {
+  background: transparent url(/wp-content/themes/ski/img/logo-img.png) no-repeat;
+  height: 250px;
+}
+
+#menu {
+  margin-top: 8em;
+}
+#logo {
+  margin-top: 4em;
+}
+#logo a {  
+}
+
+#logo, #menu {
+  background: transparent;
+}
+#logo img {
+  width: 70%;
+}
+#menuitems {
+  margin-top: 100px;
+  text-align: right;
+}
+#menuitems img {
+  width: 48px;
+  height: 48px; 
+  margin: 0 10px;
+}
+#tooltip { 
+    display:none; 
+    background:transparent url(/wp-content/themes/ski/img/black_arrow.png) no-repeat; 
+    font-size:12px; 
+    height:70px; 
+    width:160px; 
+    padding:25px; 
+    color:#fff;  
+    top: 15px !important;   
+}
+
+
+
+#startpage, #content{
+  background: #2d8072;   
+}
+#startpage {
+  height: 755px; 
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+table.preturi, table.detalii  {
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+table td {
+  border-bottom: 1px solid #aaa;  
+}
+table th {
+  font-size: larger;
+  text-transform: uppercase;
+  color: #444;
+}
+
+table.detalii td {
+  width: 8em;
+}
+
+
+
+
+
+#blog {
+  background: #2d8072;
+}
+#blog #inside {
+  text-align: left;
+}
+
+#inside .left {
+  width: 80%;
+}
+#inside .right {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #2d8072;  
+}
+#day, #month, #year {
+  text-align: center;
+  padding: 0 1.5em;
+}
+#month, #year {
+  margin-top: -17px;
+  padding: .1em;
+}
+#day h2, #month h3, #year h4 {
+  color: white;
+}
+#year h4 {
+  margin-bottom: 0;
+}
+
+.post {
+  margin-bottom: 4em;
+  padding-top: 1em;
+  border-bottom: 1px inset #62958C; 
+}
+h2.index {
+  margin-bottom: 2em;
+  padding-top: 1em;
+  border-bottom: 1px inset #62958C;
+}
+
+
+#inside {
+  padding: 1em 2em;  
+  margin: 2em 4em;
+  height: 90%;  
+  background: #eee;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+
+#inside #partners #item {
+  
+}
+
+
+#sidebar {
+  background: #2d8072;
+  padding: 3em 0;  
+}
+#sidebar .images div {
+  width: 100%;
+}
+#sidebar #images-videos, #sidebar #guestbook {
+  margin: 3em 1.5em 0;
+}
+
+#sidebar ul {
+  display: block;
+  margin: 0;
+}
+
+
+.webcam-date {
+  color: green;
+  background: black;
+  width: 115px;
+  margin-left: 525px;
+  position: relative;
+  top: -20px;
+}
+
+
+
+.vremea table td {
+  padding-left: 18em;
+}
+
+
+#post-20 .entry table {
+  margin-left: 15em;
+}
+
+
+#footer {
+  font-size: smaller;
+}
+
+#footer #credits p {
+  float: right;
+}
+
+#footer #partners .item {
+  float: right;
+  margin-right: 0;
+}
+
+/* Commons */
+
+
+ul.inline-list {
+  display: block;
+}
+ul.inline-list li {
+  display: inline;
+  float: left;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowarp;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.opacity-7 {
+  filter:alpha(opacity=70);
+  -moz-opacity:0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+}
+
+p + p {
+  margin: 0 0 1.5em;
+  text-indent: 0;
+}
+
+.entry em {
+  font-style: normal;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
+
+
+
