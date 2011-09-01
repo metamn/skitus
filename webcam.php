@@ -21,7 +21,9 @@ get_header(); ?>
 	        <!--
 	        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/ajax-loader.gif" class="webcam-image">
 	        -->
+	        <!--
 	        <iframe src="http://www.jurnalul.ro/index.php?section=webcam&screen=widget&id=222" hspace="0" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" vspace="0"  width="300" height="436"></iframe>
+	        -->
 	      </div>
 	      <div class="webcam-date">
 	      </div>
